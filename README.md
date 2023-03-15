@@ -1,2 +1,3 @@
-# project-html-css
-Project Team Progate HTML &amp; CSS
+Progate HTML & CSS Study Case
+
+Using Flexbox & Responsive Web

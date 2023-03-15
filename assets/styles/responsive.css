@@ -1,0 +1,142 @@
+/* Responsive */
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  header .header-nav {
+    display: none;
+  }
+
+  header .bi {
+    display: block;
+  }
+
+  .main-hero {
+    padding: 2rem;
+  }
+
+  .main-hero h1 {
+    font-size: 3rem;
+  }
+
+  .main-hero p {
+    font-size: 1.5rem;
+  }
+
+  .main-hero img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .main-about {
+    padding: 3rem;
+  }
+
+  .main-about h1 {
+    font-size: 3rem;
+  }
+
+  .main-about p {
+    font-size: 1.5rem;
+  }
+
+  .main-projects {
+    padding: 2rem;
+  }
+
+  .main-projects h1 {
+    font-size: 3rem;
+  }
+
+  .main-projects .main-projects-card {
+    flex-direction: column;
+  }
+
+  .main-projects .main-projects-card .card {
+    width: 100%;
+    margin: 1rem;
+  }
+
+  .main-projects .main-projects-card .card img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-projects .main-projects-card .card p {
+    font-size: 2rem;
+  }
+
+  .main-contact {
+    padding: 2rem;
+  }
+
+  .main-contact .contact-container {
+    width: 100%;
+  }
+
+  .main-contact .contact-container h1 {
+    font-size: 2rem;
+  }
+
+  .main-contact .contact-container .contact-form input {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+  }
+
+  .main-contact .contact-container .contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+  }
+
+  .main-contact .contact-container .contact-form button {
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem;
+  }
+
+  footer .footer-logo h1 a {
+    font-size: 2rem;
+  }
+
+  footer .footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
+  }
+
+  footer .footer-nav ul li {
+    margin: 1rem;
+    line-height: 0.2rem;
+  }
+
+  footer .footer-nav ul li a {
+    font-size: 1rem;
+  }
+}
