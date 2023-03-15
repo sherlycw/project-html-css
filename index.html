@@ -5,15 +5,95 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rifa Store</title>
+  <title>Latihan HTML & CSS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
+    <div class="header-logo">
+      
+      <img class="logo" src="assets/images/logo.png">
+      <h1><a href="#" class="Logo-name">Nusantara Foodcourt</a></h1>
+    </div>
+    <div class="header-right">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Produk Kami</a></li>
+        <li><a href="#">Cara Pemesanan</a></li>
+        <li><a href="#">Hubungi Kami</a></li>
+      </ul>
+    </div>
+    <div class="bi bi-list"></div>
   </header>
-  <main></main>
-  <footer></footer>
+
+  <main>
+    <section class="main-hero">
+      <h1>Ninja Ken<span>.</span></h1>
+      <p>My Portfolio</p>
+      <img src="assets/images/Ninja Ken.png" alt="Ninja Ken">
+    </section>
+
+    <section class="main-about">
+      <h1>Tentang Saya</h1>
+      <p>Lorem ipsum dolor sit amet consec
+        tetur adipisicing elit. Quisquam,
+        quibusdam. Lorem ipsum dolor sit
+        amet consectetur adipisicing elit.
+        Quisquam, quibusdam. Lorem ipsum
+        dolor sit amet consectetur
+        adipisicing elit. Quisquam,
+        quibusdam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur rerum quibusdam aspernatur
+        libero hic voluptas dicta, vel repellat deleniti voluptate earum omnis suscipit odit, totam, molestiae dolore
+        repudiandae autem? Rem.</p>
+    </section>
+
+    <section class="main-projects">
+      <h1>Proyek Contoh</h1>
+      <div class="main-projects-card">
+        <div class="card">
+          <img src="assets/images/1.png" alt="">
+          <p>Project 1</p>
+        </div>
+        <div class="card">
+          <img src="assets/images/2.png" alt="">
+          <p>Project 2</p>
+        </div>
+        <div class="card">
+          <img src="assets/images/3.png" alt="">
+          <p>Project 3</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-contact">
+      <div class="contact-container">
+        <h1>Hubungi Saya</h1>
+        <form action="" class="contact-form">
+          <input type="email" placeholder="Email (Diperlukan)">
+          <textarea name="" id="" placeholder="Message (Diperlukan)"></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-logo">
+      <h1><a href="index.html">Nusantara Foodcourt</a></h1>
+    </div>
+    <div class="footer-nav">
+      <ul>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Lokasi franchise </a></li>
+        <li><a href="#">Menjadi Reseller</a></li>
+      </ul>
+  </footer>
 </body>
 
 </html>

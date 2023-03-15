@@ -1,0 +1,317 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  background-color: #FFE6A7;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 8rem;
+  
+}
+
+/*header .header-logo {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}*/
+
+
+.logo{
+  margin-left:5px;
+float:left;
+  width: 90px;
+}
+
+header .header-logo h1 a {
+  
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-decoration: none;
+  color: #99582A;
+
+}
+
+
+header .header-right ul {
+  list-style: none;
+  margin-left: 2rem;
+  
+}
+
+header .header-right ul li {
+  margin-left: 1rem;
+  display: inline;
+  list-style-type: none;
+  
+}
+
+header .header-right li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+  color:#6F1D1B;
+  font-size:25px;
+
+}
+
+header .header-right li a:hover {
+  color: #BB9457;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+header .bi {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: #fff;
+  display: none;
+}
+
+/* Hero */
+
+.main-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.main-hero h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.main-hero h1 span {
+  color: #f1c40f;
+}
+
+.main-hero p {
+  font-size: 2rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.main-hero img {
+  width: 25%;
+  height: 25%;
+}
+
+/* About */
+
+.main-about {
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.main-about h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.main-about p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Projects */
+
+.main-projects {
+  width: 100%;
+  padding: 6rem;
+}
+
+.main-projects h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.main-projects .main-projects-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+}
+
+.main-projects .main-projects-card .card {
+  width: 30%;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.main-projects .main-projects-card .card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.main-projects .main-projects-card .card p {
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main-projects .main-projects-card .card:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* Contact */
+
+.main-contact {
+  width: 100%;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 6rem;
+}
+
+.main-contact .contact-container {
+  width: 50%;
+}
+
+.main-contact .contact-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.main-contact .contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main-contact .contact-form input {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.main-contact .contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.main-contact .contact-form button {
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: #f7e989;
+  color: #404146;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+
+.main-contact .contact-form button:hover {
+  background-color: #404146;
+  color: #fff;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  background-color: #BB9457;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  
+  text-decoration: none;
+  
+}
+
+footer .footer-logo {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+footer .footer-logo h1 a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+
+footer .footer-nav ul {
+  margin-left: 2rem;
+}
+
+footer .footer-nav ul li {
+  margin-left: 1rem;
+  list-style-type: none;
+  line-height: 2rem;
+  text-align: center;
+}
+
+footer .footer-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+footer .footer-nav li a:hover {
+  color: #f1c40f;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
