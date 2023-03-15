@@ -199,7 +199,7 @@ header .bi {
 
 .main-contact {
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #FFE6A7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -250,8 +250,8 @@ header .bi {
   border: none;
   border-radius: 10px;
   outline: none;
-  background-color: #f7e989;
-  color: #404146;
+  background-color: #432818;
+  color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
   transition: all 0.5s ease;
