@@ -1,3 +1,3 @@
-Progate HTML & CSS Study Case
+Progate HTML & CSS Project with team
 
-Using Flexbox & Responsive Web
+Include Header, Banner, Content, Form, Footer, and Using Flexbox & Responsive Web
